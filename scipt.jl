@@ -1,3 +1,5 @@
+# JULIA SCRIPT
+# OPTIONAL: You can run those installments on the Julia CLI, in order to improve the time execution of the script
 # Make sure the needed file is there
 import Pkg
 Pkg.add("DelimitedFiles")
@@ -9,14 +11,25 @@ Pkg.add("HypothesisTests")
 Pkg.add("StatsPlots")
 Pkg.add("GLM")
 Pkg.add("GR")
+# OPTIONAL: You can run those installments on the Julia CLI, in order to improve the time execution of the script
+
+# Once the packages are on file
+using Distributions
+using DataFrames
+using StatsPlots
+using HypothesisTests
+using GLM 
+using ORCA
+using Plots
+using DelimitedFiles
+using CSV
 
 # Define a function
-function someaction(testvar)
-    //
+function analyze_dataframe(dataframe)
+    
 end
 
 #Load the data from a CSV file
-using DelimitedFiles
 wikiEVDraw = DelimitedFiles.readdlm("wikipediaEVDraw.csv", ',')  # getting quotes right is important!
 println("CSV file information has been uploaded...")
 
