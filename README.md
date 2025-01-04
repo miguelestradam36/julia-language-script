@@ -9,4 +9,10 @@ In this scenario, we are going to extract some data from a CSV file and then we 
 
 !["Image"](logo.png)
 
-Project based on the working examples from University of Cape Town (Julia Scientific Programming course from Coursera)
+### JULIA: Working example
+The particular example is the dramatic case of the outbreak of Ebola Virus Disease in West Africa in 2014. This is good for our purposes, because 
+1. It was clearly a very important event, so it is nice to know that learning Julia can help us understand it.
+2. There is quite a lot of data on the event that is fairly easily obtainable.
+3. Many of the basic things to learn about in computing can be illustrated by examples from epidemics.
+
+Project based on the working examples from `University of Cape Town` (Julia Scientific Programming course from `Coursera`)
