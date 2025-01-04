@@ -8,3 +8,5 @@ One of the benefits of this language is the programming speed, and since it is a
 In this scenario, we are going to extract some data from a CSV file and then we are going to process it. Once the data has been processed we are going to save it into another file.
 
 !["Image"](logo.png)
+
+Project based on the working examples from University of Cape Town (Julia Scientific Programming course from Coursera)
